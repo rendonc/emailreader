@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="debug" name="EmailInboxReader" packages=""  monitorInterval="60">
+  <Appenders>
+    <File name="fileLogger" fileName="logs/email_app.log">
+      <PatternLayout>
+        <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+      </PatternLayout>
+    </File>
+     <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+        </Console>
+  </Appenders>
+   <Loggers>
+        <Root level="debug" additivity="false">
+            <appender-ref ref="fileLogger" />
+            <AppenderRef ref="Console" />
+        </Root>
+    </Loggers>
+</Configuration>
