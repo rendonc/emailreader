@@ -12,7 +12,9 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to run the software:
 
 Java 8+
+
 MySQL 5+
+
 An email account that supports IMAPS connections.
 
 ## Built With
