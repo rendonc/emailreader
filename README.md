@@ -1,7 +1,7 @@
 # Email Reader
 
 A Java application that connects to an IMAPs server to search for unseen email messages which body contains a predefined
-keyword. The app will save the messages' received date, sender's address, and subject data in a MySQL database.
+keyword. The app will save the messages' received date, sender's address, and subject data into a MySQL database.
 
 ## Getting Started
 
