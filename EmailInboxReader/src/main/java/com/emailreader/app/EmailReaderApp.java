@@ -109,7 +109,7 @@ public class EmailReaderApp {
 			}
 
 			try {
-				log.debug("Thread sleeping {} second...", POLLING_SECONDS);
+				log.debug("Thread sleeping {} seconds...", POLLING_SECONDS);
 				Thread.sleep(POLLING_SECONDS * 1000);
 			} catch (InterruptedException e) {
 				log.error("Error while sleeping Thread", e);
